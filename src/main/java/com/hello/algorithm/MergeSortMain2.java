@@ -8,8 +8,8 @@ public class MergeSortMain2 {
 
         //拆分
         //定义下标
-        int left = 0;
         int right = a.length - 1;
+        int left = 0;
         int mid = (left + right) / 2;
         int[] b = new int[a.length];
         mergeSort(a, b, left, right);

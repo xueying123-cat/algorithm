@@ -5,8 +5,8 @@ import java.util.Arrays;
 public class MergeSortMain1 {
     public static void main(String[] args) throws Exception {
         int[] a = {9, 5, 2, 7, 12, 4, 3, 1, 11};
-        int[] b = sort(a);
 
+        int[] b = sort(a);
         for (int i = 0; i < b.length; i++) {
             System.out.println("i====>" + b[i]);
         }
